@@ -1,0 +1,41 @@
+/**公共样式**/
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-row-between{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.border-bottom{
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.elipsText-1 {
+  display: -webkit-box; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp:1;
+}
+.elipsText-2 {
+  display: -webkit-box; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp:2;
+}
