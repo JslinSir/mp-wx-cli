@@ -1,11 +1,11 @@
 {
   "name": "mp-wx-cli",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
-    "wxmp-cli": "bin/index"
+    "mp-wx-cli": "bin/index"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
