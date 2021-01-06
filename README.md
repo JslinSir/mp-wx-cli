@@ -1,5 +1,19 @@
+## mp-wx-cli
 
-### 小程序 框架
+### 如何使用
+```
+  npm install mp-wx-cli -g
+
+  or
+
+  yarn global mp-wx-cli
+
+  mp-wx-cli init 
+
+```
+
+### 模板介绍
+
 
 #### 基础架构
  *工程目录*
@@ -37,3 +51,5 @@
  机型：关于机型的适配可以做成一个安全区组件  文章参考 https://blog.csdn.net/sinat_24946363/article/details/105181622
 
  
+
+

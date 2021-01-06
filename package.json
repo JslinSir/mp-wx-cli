@@ -1,15 +1,20 @@
 {
-  "name": "wmp-cli",
-  "version": "1.0.0",
+  "name": "mp-wx-cli",
+  "private": false,
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
-    "wmp-cli": "bin/index"
+    "wxmp-cli": "bin/index"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/JslinSir/wxmp-cli.git"
+	},
+  "author": "jslin",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
