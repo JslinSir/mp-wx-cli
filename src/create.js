@@ -10,7 +10,7 @@ const spinner = ora(`loading...\n`)
 
 async function create(props){
     const { projectName,appId,libVersion } = props
-    spinner.start()
+    // spinner.start()
     try{
         await execa('mkdir', [projectName])
         // fs.mkdirSync(`${projectName}`)
@@ -25,7 +25,7 @@ async function create(props){
        
        const configStr = JSON.stringify(wecahrtConfig)
        await writeWechartProjectConfigJson(projectName,configStr)
-       spinner.stop()
+    //    spinner.stop()
        console.log(chalk.green(`
        ******************************************
        * your "${projectName}" project init success
