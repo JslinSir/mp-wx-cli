@@ -6,7 +6,7 @@
 
   or
 
-  yarn global mp-wx-cli
+  yarn global add mp-wx-cli
 
   mp-wx-cli init 
 
