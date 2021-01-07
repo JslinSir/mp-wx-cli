@@ -75,7 +75,7 @@ const promptQuestions = async() => {
 const cli = async(args) => {
     const { action,projectName } = parseArgs(args)
     if(!action){
-        console.log(chalk.red('if you want init project please input wx-mp-cli init yourProjectName'))
+        console.log(chalk.red('if you want init project please input mp-wx-cli init yourProjectName'))
     }
     switch(action){
      case 'init':

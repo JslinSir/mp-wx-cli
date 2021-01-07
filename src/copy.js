@@ -21,7 +21,6 @@ function copyFile(from, to) {
  * @param  {String} to
  */
 async function copyDir(from, to) {
-
     try {
         await isExistSync(to)
     } catch (err) {  //不存在，则创建文件夹
