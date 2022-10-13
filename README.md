@@ -49,6 +49,11 @@
 ### 适配
  尺寸：统一rpx ,
  机型：关于机型的适配可以做成一个安全区组件  文章参考 https://blog.csdn.net/sinat_24946363/article/details/105181622
+ 
+ ### 运行图
+ <img width="1038" alt="image" src="https://user-images.githubusercontent.com/30678791/195496081-54727c21-5ba3-4c6c-a1df-2edce5953001.png">
+
+ 
 
  
 
